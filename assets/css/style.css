@@ -61,7 +61,26 @@ h2 {
     background: url(../images/Egyptian\ King.jpeg) no-repeat center center;
     background-size: cover;
     overflow: hidden;
+    
+animation: hero-zoom;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+
 }
+
+/* creat level of zoom for hero image */
+
+@keyframes hero-zoom {
+
+    from{
+        transform: scale(0.85);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+
 
 #comment {
 
@@ -78,7 +97,9 @@ h2 {
 }
 
 #best {
-    height: 400px;
+    height: 600px;
+    overflow: hidden;
+    background-color: aqua;
 }
 
 #ach {
@@ -108,7 +129,7 @@ h2 {
 }
 
 #top {
-    height: 600px;
+    height: 700px;
 }
 #top>h1{
 
@@ -178,10 +199,13 @@ hr{
     background: url(../images/mo\ Salah.jpg) no-repeat center center;
     height:100%;
     border-radius: 50%;
+    overflow: hidden;
 }
 
 #foot{
     height:300px;
+    background-color: aqua;
+    overflow: hidden;
     
 }
 #foot ul{
