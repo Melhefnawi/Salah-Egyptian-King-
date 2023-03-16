@@ -179,3 +179,26 @@ hr{
     height:100%;
     border-radius: 50%;
 }
+
+#foot{
+    height:300px;
+    
+}
+#foot ul{
+
+    text-align: center;
+}
+
+#foot li{
+
+    display:inline;
+   
+}
+
+#foot i{
+
+    color: #3a3a3a;
+    font-size: 160%;
+    margin: 3%;
+    padding:5%
+}
