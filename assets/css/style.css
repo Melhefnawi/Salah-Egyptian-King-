@@ -160,10 +160,22 @@ hr{
 
 #center-about{
 
+    width: 30%;
+    margin: 0 auto;
+
+}
+
+#circle-container{
     width: 400px;
     height:400px;
+    padding:30px;
     border: 1px solid #252525;
-    margin: 0 auto;
     border-radius: 50%;
 
+}
+
+#circle-cover{
+    background: url(../images/mo\ Salah.jpg) no-repeat center center;
+    height:100%;
+    border-radius: 50%;
 }
